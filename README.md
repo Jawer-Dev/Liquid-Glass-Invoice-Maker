@@ -1,74 +1,66 @@
-# React + TypeScript + Vite
+Liquid Glass Invoice Maker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Liquid Glass Invoice Maker is a sleek, modern invoice generation tool built with React, TypeScript, and Vite. It helps freelancers, small businesses, and developers quickly create professional invoices through a clean, glassmorphic user interface and export them in a structured format.
 
-Currently, two official plugins are available:
+This project blends practicality and aesthetic finesse by letting users input client and billing information, assemble invoice details, preview invoices with a refined liquid-glass design, and export them as sharable documents.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+• Beautiful liquid glass UI for seamless interaction
+• Create, edit, and preview invoices in real time
+• Export invoices to PDF or downloadable formats
+• Built with React + TypeScript + Vite for fast performance
+• Mobile responsive and easy to extend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📦 Tech Stack
 
-## Expanding the ESLint configuration
+• React + TypeScript — for robust, typed UI logic
+• Vite — for blazing fast development builds
+• Tailwind CSS — for utility-first styling and fluid layouts
+• Netlify Deployment — live hosting on Netlify
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🧠 Why This Matters
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Invoices are boring when they’re ugly. Liquid Glass Invoice Maker makes them not boring while still being fully functional. Whether you’re billing clients, keeping records, or generating quotes on the fly, this tool gives you a polished, intuitive experience.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+📥 Installation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Clone the repo:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+git clone https://github.com/Jawer-Dev/Liquid-Glass-Invoice-Maker.git
+cd Liquid-Glass-Invoice-Maker
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# Liquid-Glass-Invoice-Maker
+Install dependencies:
+
+npm install
+
+
+Start the dev server:
+
+npm run dev
+
+
+Open your browser at the URL that Vite prints (usually http://localhost:5173).
+
+📄 Usage
+
+Add company and client details
+
+Build your items, quantities, prices, and taxes
+
+Preview the invoice in the app
+
+Export as PDF or download format
+
+🧰 Contributing
+
+If you want new features, better invoice templates, or API export support, open a PR or drop an issue. This project thrives on collaboration.
+
+📜 License
+
+This project is open-source and MIT-licensed.
+
+🔗 Live Demo
+
+Check out the live version: https://liquidglassinvoicemaker.netlify.app
