@@ -1,4 +1,4 @@
-Liquid Glass Invoice Maker
+## Liquid Glass Invoice Maker
 
 Liquid Glass Invoice Maker is a sleek, modern invoice generation tool built with React, TypeScript, and Vite. It helps freelancers, small businesses, and developers quickly create professional invoices through a clean, glassmorphic user interface and export them in a structured format.
 
